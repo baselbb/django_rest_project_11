@@ -13,3 +13,61 @@ pugorugh_urls.py|7|0|100%|
 pugorugh_views.py|97|28|71%|
 backend_urls_py.html.py|9|0|100%|
 pugorugh_tests_py.html|140|0|100%|
+
+# Project Requirements
+Project Instructions
+
+## To complete this project, follow the instructions below. If you get stuck, ask a question in the community.
+
+6 steps
+To complete this project, follow the instructions below. If you get stuck, ask a question in the community.
+The application needs the following models with the associated field names included.
+
+Dog Model
+- name
+- image_filename
+- breed
+- age - integer for months
+- gender - “m” for male, “f” for female, “u” for unknown
+- size, "s" for small, "m" for medium, "l" for large, "xl" for extra large, "u" for unknown
+
+UserDog Model
+- user
+- dog
+- status - “l” for liked, “d” for disliked
+
+UserPref Model
+- user
+- age - “b” for baby, “y” for young, “a” for adult, “s” for senior
+- gender - “m” for male, “f” for female
+- size - “s” for small, “m” for medium, “l” for large, “xl” for extra large
+
+Serializers are needed for the Dog and UserPref Models. All fields need to be revealed except user from the UserPref Model.
+The front end JavaScript application is expecting the following routes to be in place:
+To get the next liked/disliked/undecided dog
+`/api/dog/<pk>/liked/next/
+/api/dog/<pk>/disliked/next/
+/api/dog/<pk>/undecided/next/
+To change the dog's status
+/api/dog/<pk>/liked/
+/api/dog/<pk>/disliked/
+/api/dog/<pk>/undecided/`
+
+To change or set user preferences
+
+`/api/user/preferences/`
+
+The supplied project includes Token-Based Authentication, that functionality should be maintained.
+Unit test the app.
+
+Write unit tests to test that each view is displaying the correct information. Write unit tests to test that the models, classes, and other functions behave as expected.
+
+Extra Credit
+To get an "exceeds" rating, you can expand on the project in the following ways:
+
+5 steps
+1. To get an "exceeds" rating, you can expand on the project in the following ways:
+2. Extend the application by allowing the addition or deletion of dogs to the site.
+3. Add additional data fields to the Models which increase the application’s functionality.
+4. Additional routes are added to site which increase the application’s functionality.
+5. Unit tests cover more than 75% of the views, models, and other functions.
