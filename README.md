@@ -68,10 +68,7 @@ Unit test the app. Write unit tests to test that each view is displaying the cor
 
 ### Extra Credit
 To get an "exceeds" rating, you can expand on the project in the following ways:
-
-5 steps
-1. To get an "exceeds" rating, you can expand on the project in the following ways:
-2. Extend the application by allowing the addition or deletion of dogs to the site.
-3. Add additional data fields to the Models which increase the application’s functionality.
-4. Additional routes are added to site which increase the application’s functionality.
-5. Unit tests cover more than 75% of the views, models, and other functions.
+1. Extend the application by allowing the addition or deletion of dogs to the site.
+2. Add additional data fields to the Models which increase the application’s functionality.
+3. Additional routes are added to site which increase the application’s functionality.
+4. Unit tests cover more than 75% of the views, models, and other functions.
