@@ -43,16 +43,24 @@ Serializers are needed for the Dog and UserPref Models. All fields need to be re
 The front end JavaScript application is expecting the following routes to be in place:
 
 To get the next liked/disliked/undecided dog
+
 `/api/dog/<pk>/liked/next/`
+
 `/api/dog/<pk>/disliked/next/`
+
 `/api/dog/<pk>/undecided/next/`
 
+
 To change the dog's status
+
 `/api/dog/<pk>/liked/`
+
 `/api/dog/<pk>/disliked/`
+
 `/api/dog/<pk>/undecided/`
 
 To change or set user preferences
+
 `/api/user/preferences/`
 
 The supplied project includes Token-Based Authentication, that functionality should be maintained.
