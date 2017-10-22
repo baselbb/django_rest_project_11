@@ -53,7 +53,6 @@ To change the dog's status
 `/api/dog/<pk>/undecided/`
 
 To change or set user preferences
-
 `/api/user/preferences/`
 
 The supplied project includes Token-Based Authentication, that functionality should be maintained.
