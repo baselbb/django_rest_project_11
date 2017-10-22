@@ -18,12 +18,9 @@ pugorugh_tests_py.html|140|0|100%|
 Project Instructions
 
 ## To complete this project, follow the instructions below. If you get stuck, ask a question in the community.
-
-6 steps
-To complete this project, follow the instructions below. If you get stuck, ask a question in the community.
 The application needs the following models with the associated field names included.
 
-Dog Model
+###Dog Model
 - name
 - image_filename
 - breed
@@ -31,12 +28,12 @@ Dog Model
 - gender - “m” for male, “f” for female, “u” for unknown
 - size, "s" for small, "m" for medium, "l" for large, "xl" for extra large, "u" for unknown
 
-UserDog Model
+###UserDog Model
 - user
 - dog
 - status - “l” for liked, “d” for disliked
 
-UserPref Model
+###UserPref Model
 - user
 - age - “b” for baby, “y” for young, “a” for adult, “s” for senior
 - gender - “m” for male, “f” for female
@@ -58,11 +55,9 @@ To change or set user preferences
 `/api/user/preferences/`
 
 The supplied project includes Token-Based Authentication, that functionality should be maintained.
-Unit test the app.
+Unit test the app. Write unit tests to test that each view is displaying the correct information. Write unit tests to test that the models, classes, and other functions behave as expected.
 
-Write unit tests to test that each view is displaying the correct information. Write unit tests to test that the models, classes, and other functions behave as expected.
-
-Extra Credit
+###Extra Credit
 To get an "exceeds" rating, you can expand on the project in the following ways:
 
 5 steps
