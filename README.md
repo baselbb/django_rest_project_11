@@ -2,9 +2,9 @@
 Django REST API backend for Dog selection website
 
 ## Run Project from your terminal on your local server
-`
+`python
 python manage.py
-'
+`
 
 ## Coverage Report
 file|statements| miss| cover|
